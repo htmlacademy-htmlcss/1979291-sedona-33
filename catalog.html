@@ -28,8 +28,10 @@
 <main class="main-inner main-container">
   
     <section class="filter">
+<div class="filter-title-group">
 <h1 class="main-inner-title">Гостиницы Седоны </h1>
 <p class="main-inner-paragraph">Гостиницы</p>
+</div>
 <h2 class="visually-hidden">Фильтр</h2>
 <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
     <fieldset class="catalog-filter-group">
@@ -104,6 +106,7 @@
   <option value="expensive">Сначала дорогое</option>
 </select>
 
+<div class="container-mode">
 <a  class="button button-light" href="#">
   <span class="visually-hidden">Показать список</span>
 </a>
@@ -115,9 +118,12 @@
 <a class="button" href="#">
     <span class="visually-hidden">Показать карточки</span>
   </a>
+</div>
 </section>
 
+
 <section class="catalog-product">
+  <div class="container-catalog">
   <h2 class="visually-hidden">Каталог</h2>
 
     <ul class="product-list">
@@ -165,10 +171,11 @@
                 <a class="product-card-button button" href="#">В Избранное</a>
                 </li>
             </ul>
+          </div>
 </section>
 
 <section class="pagination">
-
+<h3 class="visually-hidden">Пагинация</h3>
 <button class="button pagination-show-more" type="button">ЗАГРУЗИТЬ ЕЩЁ</button>
 
 
@@ -205,8 +212,8 @@
               </section>
             
 <section class="mailing mailing-catalog">
-    <h3>Подпишитесь на рассылку</h3>
-  <p>Только полезная информация и никакого спама,<br>
+    <h3 class="mailing-title">Подпишитесь на рассылку</h3>
+  <p class="mailing-description">Только полезная информация и никакого спама,<br>
     честное бойскаутское!</p>
     <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
       <label for="newsletter-email">Email</label>
